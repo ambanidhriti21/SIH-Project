@@ -94,9 +94,10 @@ Leaf Image → Image Processing → AI Disease Detection → Disease Class + Con
 
 ## 🔗 6. Demo Video & Deployment Links
 
-- **Live Web Application**: http://localhost:8000 (Local Development)
-- **Demo Video (3–5 min)**: Insert Unlisted YouTube / Drive link here
+- **Live Web Application**: Available through the local application setup using `python app.py`
+- **Demo Video (3–5 min)**: [▶️ Watch AgriSmart AI Demo](https://youtu.be/c0TbF36sZLE)
 
+The demo video showcases the complete end-to-end AgriSmart AI application, including AI-powered crop disease detection, farmer-oriented recommendations, weather intelligence, and multilingual support.
 ---
 
 ## 📜 7. Originality Declaration
@@ -130,7 +131,3 @@ PostgreSQL stores user information, disease information, and prediction history.
 Weather intelligence is integrated through a weather API to provide current weather conditions, rainfall probability, disease-risk indications, irrigation advice, and spraying guidance.
 
 The frontend also provides multilingual support for English, Hindi, and Gujarati to improve accessibility for farmers.
-
-## 🎥 Project Demo
-
-[▶️ Watch AgriSmart AI Demo](https://youtu.be/c0TbF36sZLE)
