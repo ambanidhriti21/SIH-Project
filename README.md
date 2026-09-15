@@ -133,4 +133,4 @@ The frontend also provides multilingual support for English, Hindi, and Gujarati
 
 ## 🎥 Project Demo
 
-[▶️ Watch AgriSmart AI Demo](https://youtu.be/c0TbF36sZLE?si=3dnQgXpftmZFHygh)
+[▶️ Watch AgriSmart AI Demo](https://youtu.be/c0TbF36sZLE)
