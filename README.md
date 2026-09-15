@@ -130,3 +130,7 @@ PostgreSQL stores user information, disease information, and prediction history.
 Weather intelligence is integrated through a weather API to provide current weather conditions, rainfall probability, disease-risk indications, irrigation advice, and spraying guidance.
 
 The frontend also provides multilingual support for English, Hindi, and Gujarati to improve accessibility for farmers.
+
+## 🎥 Project Demo
+
+[▶️ Watch AgriSmart AI Demo](https://youtu.be/c0TbF36sZLE?si=3dnQgXpftmZFHygh)
