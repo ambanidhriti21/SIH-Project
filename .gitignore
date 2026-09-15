@@ -1,0 +1,22 @@
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+__pycache__/
+*.pyc
+
+# Dataset and binary weights
+dataset/
+model/crop_disease_model.h5
+*.zip
+*.tar.gz
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+*.log
+uploads/
+node_modules/
+frontend/dist/

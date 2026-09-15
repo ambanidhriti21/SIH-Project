@@ -1,0 +1,195 @@
+{
+  "Tomato___Early_blight": {
+    "plant": "Tomato",
+    "disease": "Early Blight",
+    "status": "Diseased",
+    "severity": "Moderate",
+    "symptoms": [
+      "Dark brown spot concentric rings on older lower leaves",
+      "Yellowing surrounding leaf lesions",
+      "Stem leaf drop progressing upward"
+    ],
+    "organic_cure": "Apply neem oil (2%) or copper soap fungicide spray every 7-10 days.",
+    "chemical_cure": "Spray Chlorothalonil or Mancozeb fungicide according to package instructions.",
+    "prevention": [
+      "Rotate crop every 2 years",
+      "Avoid overhead sprinkler irrigation to keep leaves dry",
+      "Mulch soil around plants to prevent fungal spores from splashing up"
+    ]
+  },
+  "Tomato___Late_blight": {
+    "plant": "Tomato",
+    "disease": "Late Blight",
+    "status": "Diseased",
+    "severity": "High",
+    "symptoms": [
+      "Large water-soaked gray-green spots on leaves",
+      "White fuzzy fungal growth on leaf undersides in high humidity",
+      "Rapid wilting and blackening of foliage"
+    ],
+    "organic_cure": "Spray bio-fungicide containing Bacillus subtilis. Remove and destroy infected foliage immediately.",
+    "chemical_cure": "Apply Systemic Fungicide such as Metalaxyl + Mancozeb or Dimethomorph.",
+    "prevention": [
+      "Plant blight-resistant tomato varieties",
+      "Ensure proper row spacing for maximum airflow",
+      "Destroy nightshade weed hosts near the field"
+    ]
+  },
+  "Tomato___Healthy": {
+    "plant": "Tomato",
+    "disease": "None (Healthy)",
+    "status": "Healthy",
+    "severity": "None",
+    "symptoms": [
+      "Vibrant green leaves",
+      "No visible spots, discoloration, or leaf curling"
+    ],
+    "organic_cure": "No treatment required. Maintain balanced watering and organic compost.",
+    "chemical_cure": "None required.",
+    "prevention": [
+      "Maintain consistent soil moisture",
+      "Apply balanced N-P-K organic fertilizer"
+    ]
+  },
+  "Potato___Early_blight": {
+    "plant": "Potato",
+    "disease": "Early Blight",
+    "status": "Diseased",
+    "severity": "Moderate",
+    "symptoms": [
+      "Target-board concentric ring spots on lower leaf surface",
+      "Leaf tissue around lesions turns yellow and dies"
+    ],
+    "organic_cure": "Apply bio-fungicide containing Trichoderma harzianum or copper-based sprays.",
+    "chemical_cure": "Spray Dithane M-45 (Mancozeb) at 2g/liter of water.",
+    "prevention": [
+      "Ensure adequate nitrogen fertility to prevent plant stress",
+      "Practice 3-year crop rotation"
+    ]
+  },
+  "Potato___Late_blight": {
+    "plant": "Potato",
+    "disease": "Late Blight",
+    "status": "Diseased",
+    "severity": "High",
+    "symptoms": [
+      "Dark brown to black water-soaked leaf spots",
+      "White mold on undersides during wet weather",
+      "Tubers rot in soil"
+    ],
+    "organic_cure": "Apply Bordeaux mixture (1%) before wet weather spreads spores.",
+    "chemical_cure": "Spray Cymoxanil + Mancozeb or Propamocarb hydrochloride.",
+    "prevention": [
+      "Use certified disease-free seed potatoes",
+      "Hill up soil around plants to protect tubers"
+    ]
+  },
+  "Potato___Healthy": {
+    "plant": "Potato",
+    "disease": "None (Healthy)",
+    "status": "Healthy",
+    "severity": "None",
+    "symptoms": [
+      "Uniform green leaves",
+      "Robust foliage growth without stem rot"
+    ],
+    "organic_cure": "No treatment needed.",
+    "chemical_cure": "None required.",
+    "prevention": [
+      "Regular weed control and proper drainage"
+    ]
+  },
+  "Corn_(Maize)___Common_rust": {
+    "plant": "Corn (Maize)",
+    "disease": "Common Rust",
+    "status": "Diseased",
+    "severity": "Moderate",
+    "symptoms": [
+      "Small cinnamon-brown pustules on upper and lower leaf surfaces",
+      "Pustules rupture releasing powdery reddish spores"
+    ],
+    "organic_cure": "Spray sulfur powder or neem oil solution on affected leaves.",
+    "chemical_cure": "Foliar application of Azoxystrobin or Propiconazole fungicide.",
+    "prevention": [
+      "Plant rust-resistant hybrid seed varieties",
+      "Plant early in the season to avoid late-summer spore exposure"
+    ]
+  },
+  "Corn_(Maize)___Healthy": {
+    "plant": "Corn (Maize)",
+    "disease": "None (Healthy)",
+    "status": "Healthy",
+    "severity": "None",
+    "symptoms": [
+      "Clean long green leaves",
+      "Strong central stalk with clear silk development"
+    ],
+    "organic_cure": "Maintain normal field care.",
+    "chemical_cure": "None required.",
+    "prevention": [
+      "Maintain adequate soil nitrogen level"
+    ]
+  },
+  "Apple___Apple_scab": {
+    "plant": "Apple",
+    "disease": "Apple Scab",
+    "status": "Diseased",
+    "severity": "Moderate",
+    "symptoms": [
+      "Olive-green velvet-like spots on leaves and fruit",
+      "Deformed, cracked apples with dark corky scab lesions"
+    ],
+    "organic_cure": "Apply liquid copper or sulfur sprays in early spring at green tip stage.",
+    "chemical_cure": "Spray Myclobutanil or Captan at bud break.",
+    "prevention": [
+      "Rake and destroy fallen leaves in autumn to eliminate overwintering fungus",
+      "Prune canopy for sunlight penetration"
+    ]
+  },
+  "Apple___Healthy": {
+    "plant": "Apple",
+    "disease": "None (Healthy)",
+    "status": "Healthy",
+    "severity": "None",
+    "symptoms": [
+      "Smooth green leaf blades",
+      "Unblemished fruit skin"
+    ],
+    "organic_cure": "None needed.",
+    "chemical_cure": "None required.",
+    "prevention": [
+      "Regular dormant pruning"
+    ]
+  },
+  "Rice___Brown_spot": {
+    "plant": "Rice",
+    "disease": "Brown Spot",
+    "status": "Diseased",
+    "severity": "Moderate to High",
+    "symptoms": [
+      "Oval brown lesions with yellow halo on leaves and grain",
+      "Seedling blight and seedling death"
+    ],
+    "organic_cure": "Soak seeds in 1% neem seed kernel extract before sowing.",
+    "chemical_cure": "Seed treatment with Carbendazim (2g/kg seed) and spray Edifenphos or Mancozeb.",
+    "prevention": [
+      "Apply balanced potassium and silicon fertilizer",
+      "Use clean, pathogen-free seed"
+    ]
+  },
+  "Rice___Healthy": {
+    "plant": "Rice",
+    "disease": "None (Healthy)",
+    "status": "Healthy",
+    "severity": "None",
+    "symptoms": [
+      "Bright green erect leaf blades",
+      "Strong tillers and healthy root system"
+    ],
+    "organic_cure": "None required.",
+    "chemical_cure": "None required.",
+    "prevention": [
+      "Maintain optimal water level in paddy fields"
+    ]
+  }
+}

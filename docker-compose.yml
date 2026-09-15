@@ -1,0 +1,44 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: agrismart-postgres
+    environment:
+      POSTGRES_DB: agrismart
+      POSTGRES_USER: agrismart
+      POSTGRES_PASSWORD: agrismart
+    ports: ["5432:5432"]
+    volumes: ["agrismart_pgdata:/var/lib/postgresql/data"]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U agrismart -d agrismart"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+  ai:
+    build:
+      context: .
+      dockerfile: ai_service/Dockerfile
+    ports: ["8001:8001"]
+  frontend:
+    build:
+      context: .
+      dockerfile: frontend/Dockerfile
+    environment:
+      VITE_API_URL: http://localhost:8000
+    depends_on:
+      backend: {condition: service_started}
+    ports: ["5173:5173"]
+  backend:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    environment:
+      DATABASE_URL: postgresql+psycopg://agrismart:agrismart@postgres:5432/agrismart
+      AI_SERVICE_URL: http://ai:8001
+      JWT_SECRET: change-this-before-production
+      CORS_ORIGINS: http://localhost:5173
+    depends_on:
+      postgres: {condition: service_healthy}
+      ai: {condition: service_started}
+    ports: ["8000:8000"]
+volumes:
+  agrismart_pgdata:
