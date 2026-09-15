@@ -94,7 +94,7 @@ Leaf Image → Image Processing → AI Disease Detection → Disease Class + Con
 
 ## 🔗 6. Demo Video & Deployment Links
 
-- **Live Web Application**: Available through the local application setup using `python app.py`
+- **Live Web Application**: http://localhost:8000 (Local Development)
 - **Demo Video (3–5 min)**: [▶️ Watch AgriSmart AI Demo](https://youtu.be/c0TbF36sZLE)
 
 The demo video showcases the complete end-to-end AgriSmart AI application, including AI-powered crop disease detection, farmer-oriented recommendations, weather intelligence, and multilingual support.
